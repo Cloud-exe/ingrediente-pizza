@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ink Free";
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url("../images/fondo-pizza.webp") no-repeat center/cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+  max-width: 600px;
+  border: solid 4px;
+  background-color: aliceblue;
+}
+
+#listaIngredientes {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ingrediente {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: crimson;
+  padding: 20px 10px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#ingredientes {
+  border: 1px solid;
+}
+
+.ingrediente:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.verdura {
+  background-color: coral;
+}
+
+.enlace {
+  background-color: purple;
+}
+
+.texto-rojo {
+  color: red;
+}
